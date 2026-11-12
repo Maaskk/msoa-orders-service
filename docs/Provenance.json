@@ -1,0 +1,17 @@
+{
+  "service": "orders",
+  "responsable": "ASHAD Ossama",
+  "origine": "LAB2_MSOA/application",
+  "fichiers_extraits": [
+    {
+      "source": "backend/services/orders/index.mjs",
+      "sha256": "34c6bfad44ea861668eb740b3bdc1d339c0390de206cfa43bb3040ccab12de3f"
+    },
+    {
+      "source": "backend/shared/runtime.mjs",
+      "sha256": "3f9ed52fb961e7dbe2b423336597c777ce6b2cbc7fd2ee6fcfde4b6bc330fc7b"
+    }
+  ],
+  "infrastructure_commune": "backend/shared/runtime.mjs",
+  "autres_services_inclus": false
+}

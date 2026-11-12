@@ -1,0 +1,16 @@
+{
+  "name": "msoa-orders-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cycle de vie des commandes, calcul du total et coordination des operations metier.",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env backend/services/orders/index.mjs",
+    "check": "node --check backend/services/orders/index.mjs && node --check backend/shared/runtime.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "author": "ASHAD Ossama"
+}
